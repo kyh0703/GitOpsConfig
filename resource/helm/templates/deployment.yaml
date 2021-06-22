@@ -17,3 +17,5 @@ spec:
         image: {{ .Values.image }}
         ports:
         - containerPort: 8080
+      imagePullSecrets:
+        - name: docker-registry-login
