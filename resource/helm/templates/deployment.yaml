@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: {{ .Values.name }}
-        image: paulbouwer/hello-kubernetes:{{ .Values.version }}
+        image: {{ .Values.image }}
         ports:
         - containerPort: 8080
