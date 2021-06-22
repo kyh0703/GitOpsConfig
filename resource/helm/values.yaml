@@ -1,4 +1,4 @@
 name: hello-kubernetes
-image: 100.100.103.167:5000/kyh-test:1.0
+image: 100.100.103.167:5000/kyh-test:1.1
 replicaCount: 1
 nodePort: 30500
