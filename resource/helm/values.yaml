@@ -2,3 +2,4 @@ name: hello-kubernetes
 image: 100.100.103.167/ipron/hello:1
 replicaCount: 2
 nodePort: 30502
+imagePullSecret: regcredtest
