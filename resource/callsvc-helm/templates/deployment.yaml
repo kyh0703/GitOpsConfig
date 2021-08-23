@@ -17,5 +17,3 @@ spec:
         image: {{ .Values.image }}
         ports:
         - containerPort: 3000
-      imagePullSecrets:
-        - name: {{ .Values.imagePullSecret }}
